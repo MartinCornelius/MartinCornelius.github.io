@@ -6,22 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Martin Cornelius Portfolio</title>
 
-  <!-- CSS -->
+  <!-- Pure css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+
+  <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <!-- Left side -->
-    <div class="logo">Logo</div>
-    <h1>Martin Cornelius</h1>
+  <!-- NAV -->
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <!-- Logo -->
+      <a href="#" class="pure-menu-heading" style="float: left">Martin Cornelius</a>
 
-    <!-- Right side -->
-    <div class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Projects</a></li>
+      <!-- Navbar items -->
+      <ul class="pure-menu-list" style="float: right">
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Projects</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">About me</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+
+  <a href="#" class="pure-button">Click me!</a>
+    
 </body>
 </html>
