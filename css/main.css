@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: #007895;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  color: #eee;
+  font-size: 60px;
+}
+
+.sticky-notes-app,
+.sticky-notes-app * {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.sticky-notes-app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 25px;
+  gap: 25px;
+}
+
+.note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  resize: none;
+  outline: none;
+}
+
+.btn-add-note {
+  height: 200px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  font-size: 72px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: background 0.2s;
+}
+
+.btn-add-note:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
