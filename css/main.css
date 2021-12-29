@@ -115,13 +115,13 @@ nav {
 }
 
 .projects-example {
-  display: flex;
+  display: inline;
   padding: 15px;
 }
 
 .projects-preview {
   cursor: pointer;
-  margin: 10px;
+  margin: 20px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 10px;
@@ -160,5 +160,9 @@ nav {
 
   .navbar-links:not(:last-of-type) {
     margin-right: 24px;
+  }
+
+  .projects-example {
+    display: flex;
   }
 }
