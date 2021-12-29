@@ -114,6 +114,32 @@ nav {
   color: #fff;
 }
 
+.projects-example {
+  display: flex;
+  padding: 15px;
+}
+
+.projects-preview {
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.projects-preview:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0 0.2);
+}
+
+.projects-preview img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.project-description {
+  padding: 2px 16px;
+}
+
 @media screen and (min-width: 767px) {
   .navToggle {
     display: none;
